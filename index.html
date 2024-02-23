@@ -14,6 +14,22 @@
     <div class="container-1">
         <h1><div class="words">Crap - Scheisse<hr></a>Idiot - Idiot<hr>I hate you - Ich hasse dich</div></h1>
         <a href="get-hacket.html"><button class="button">For more words! (Your probably get hacked)</button> </a>
+        
     </div>
+    <div id="cookie-popup">
+        This website uses cookies.<br>
+        <a href="privacy.html" target="_blank">Learn more</a>
+        <button id="accept-btn">Accept</button>
+    </div>
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2ba6c6b51e274dfd89d9a56d7666da84"}'></script><!-- End Cloudflare Web Analytics -->
+    <script>
+        const cookiePopup = document.getElementById('cookie-popup');
+        const acceptBtn = document.getElementById('accept-btn');
+
+        acceptBtn.addEventListener('click', () => {
+            cookiePopup.style.display = 'none';
+        });
+    </script>
+    
 </body>
 </html>
