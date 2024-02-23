@@ -73,3 +73,22 @@ body .container-1 .button {
     margin-left: 35%;
     font-weight: bolder;
 }
+
+
+
+#cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+#cookie-popup button {
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
